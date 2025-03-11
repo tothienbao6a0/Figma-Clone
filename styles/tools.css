@@ -1,0 +1,131 @@
+.tool-integration {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+}
+
+.toggle-toolbar {
+  background: #333;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tool-options {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  padding: 16px;
+  width: 320px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.tool-options.hidden {
+  display: none;
+}
+
+/* Text Tool Styles */
+.text-tool textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.text-controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+/* Drawing Tool Styles */
+.drawing-tool canvas {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.drawing-controls {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+/* Decorative Tool Styles */
+.decorative-tools .type-selector {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.decorative-tools .type-selector button {
+  flex: 1;
+  padding: 8px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.decorative-tools .type-selector button.active {
+  background: #333;
+  color: white;
+}
+
+/* Collage Tool Styles */
+.collage-tools input[type="file"] {
+  margin-bottom: 12px;
+}
+
+/* Page Layout Tool Styles */
+.page-layout-tool .layout-selector {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.page-layout-tool .layout-selector button {
+  flex: 1;
+  padding: 8px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.page-layout-tool .layout-selector button.active {
+  background: #333;
+  color: white;
+}
+
+.layout-preview {
+  border: 1px solid #ddd;
+  height: 150px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.apply-button {
+  background: #4a6cf7;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 12px;
+  font-weight: 500;
+}
+
+.apply-button:hover {
+  background: #3a5ce5;
+} 
